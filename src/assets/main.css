@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Manrope:wght@800&display=swap");
+@import "../components/Loader.css";
 
 @tailwind base;
 @tailwind components;
