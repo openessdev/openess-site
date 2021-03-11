@@ -97,7 +97,7 @@ const Home: Component = () => {
                 src={chevron}
               />
             </span>
-            <div class="flex mt-9 flex-wrap content-center items-stretch">
+            <div class="flex mt-6 flex-wrap content-center items-stretch">
               <a
                 target="_blank"
                 class="pr-4 hover:opacity-25 transition duration-300"
@@ -108,7 +108,7 @@ const Home: Component = () => {
               <a
                 target="_blank"
                 class="px-4 hover:opacity-25 transition duration-300"
-                href="https://www.linkedin.com/openessdev"
+                href="https://www.linkedin.com/company/openessdev"
               >
                 <img src={linkedin} />
               </a>
@@ -119,13 +119,13 @@ const Home: Component = () => {
               >
                 <img src={github} />
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 class="pl-4 hover:opacity-25 transition duration-300"
                 href="https://www.github.com/openessdev"
               >
                 <img src={gift} />
-              </a>
+              </a> */}
             </div>
             <div class="mt-10">
               <span>&copy; 2021 Openess </span>
