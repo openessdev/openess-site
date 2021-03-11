@@ -5,12 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body,
+html,
+#app {
   background-color: #000000;
   background: url("img/stars-bg.jpg") no-repeat center center;
   background-size: cover;
 }
 .wrap {
+  background-color: #000000;
   background: url("img/openess-wave.svg") no-repeat 105% 0%;
   background-size: auto 70vh;
 }
