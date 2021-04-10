@@ -2,7 +2,7 @@ import { RouteDefinition } from "solid-app-router";
 import { lazy } from "solid-js";
 
 export const routes: RouteDefinition[] =
-  window.location.href.indexOf("building.") !== -1
+  window.location.href.indexOf("building.") === -1
     ? [
         {
           path: "/",
