@@ -58,7 +58,7 @@ const Home: Component = () => {
     }
   };
   return (
-    <div class="wrap">
+    <div class="wrap home">
       <div class="flex flex-wrap min-h-screen min-w-screen content-center md:mx-10">
         <div class="container text-white px-12 mx-12 text-openess-default mx-auto">
           <div class="sm:w-12/12 md:w-6/12 lg:w-5/12">
