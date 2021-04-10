@@ -1,8 +1,0 @@
-name = "openess"
-type = "webpack"
-account_id = ""
-route = "openess.dev/*"
-
-[site]
-bucket = "./dist"
-entry-point = "workers-site"
