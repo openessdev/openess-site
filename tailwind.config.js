@@ -11,7 +11,7 @@ module.exports = {
         primary: "#4483c1",
         openess: {
           default: "#D7CEDE",
-          accent: "#eb778c",
+          accent: "#EB778C",
         },
       },
       fontFamily: {
